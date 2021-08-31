@@ -37,7 +37,7 @@ h1{
     background-image: url(img/pexels-antonio-batinić-4164418.jpg);
     background-position: center;
     background-size: cover;
-    height: 600px;
+    height: 500px;
     max-width: 100%;
     display: flex;
     align-items: center;
@@ -82,4 +82,79 @@ h1{
     font-size: 30px;
     padding: 50px;
     text-align: justify;
+}
+.skills{
+    height: 200px;
+    max-width: 100%;
+    border: solid 1px;
+}
+.titulo-skills{
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    font-size: 75px;
+    max-width: 100%;
+}
+.contenedor-skills{
+    height: 100px;
+    max-width: 100%;
+    border: solid 1px;
+    display: inline-block;
+    display: flex;
+}
+.contenedor-s{
+    height: 90px;
+    width: 20%;
+    max-width:100px;
+    display: inline-block;
+    border: solid 1px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+  
+
+
+}
+.contenedor-img{
+    display: inline-block;
+    max-width: 100px;
+}
+.social{
+    margin: 50px;
+}
+.social p{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a{
+margin: 0 30px;
+}
+.links a i{
+font-size:4rem ;
+}
+img {
+    object-fit: cover;
+     margin: -20px;
+    
+   }
+.icono{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    padding-right: 5px;
+
+}
+.icono2{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    
 }
