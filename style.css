@@ -83,6 +83,7 @@ h1{
     padding: 50px;
     text-align: justify;
 }
+
 .skills{
     height: 200px;
     max-width: 100%;
@@ -157,4 +158,85 @@ img {
     height: 70px;
     display: inline-block;
     
+}
+.proyectos{
+    height: 410px;
+    max-width: 100%;
+    background-color: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   margin-top: -20px;
+
+}
+.contenedor-proyectos-all{
+    width: 100%;
+}
+.titulo-proyectos{
+
+}
+
+.contenedor-proyectos{
+    height: auto;
+    display: grid;
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+.card{
+    width: 10px;
+    height: auto;
+    position: relative;
+    margin: 30px auto;
+    display: inline-block;
+
+}
+.card .card-img img{
+    display: inline-block;
+    max-width: 200px;
+    object-fit: cover;
+    position: relative;
+    display: inline;
+
+}
+.news-cards-img:hover{
+    transform: scale(.9,.9);
+}
+.news-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 10px 0;
+    margin-top: 40px;
+    
+}
+
+.news-cards img{
+    width: 100%;
+    height: 180px;
+}
+.news-cards h3{
+    font-size: 20px;
+    margin: 10px 0;
+    margin-top: 20px;
+ 
+}
+
+.news-cards a{
+padding: 10px 0;
+color: #ffffff;
+display: inline-block;
+font-weight: bold;
+}
+.titulo-proyectos{
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    font-size: 45px;
+    max-width: 100%;
+
+}
+.texto-proyectos{
+    font-size: 20px;
+    margin: 10px 0;
+    color: white;
 }
